@@ -10,7 +10,6 @@ let arr: any[] = [22, "a", true]
 let numArr: number[][] = [[1], [2]]
 
 //Tuples
-[number, string]
 let employee: [number, string] = [1, "Jack"]
 let employees: [number, string][] =[
     [2, "Sarah"],

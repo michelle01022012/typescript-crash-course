@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 //Basic Types
 let age = 25;
 let hobby = "Soccer";
@@ -38,13 +37,9 @@ function add(x, y) {
 function sayHi() {
     console.log("Hi");
 }
-function copyArr<T>(arr: T[]): T[] {
-    return [...arr]
+function copyArr(arr) {
+    return [...arr];
 }
-
-let numCopy = copyArr([1, 2, 3])
-let strCopy = copyArr<string>(["1", "2", "3"])
-
 let numCopy = copyArr([1, 2, 3]);
 let strCopy = copy, Arr;
 (["1", "2", "3"]);
@@ -59,4 +54,9 @@ function displayStudent(student) {
     const info = student.name + "\n" + student.age + "\n" + student.eyeColor;
     document.body.innerText = info;
 }
+displayStudent({
+    name: "Jack",
+    age: 20,
+    eyeColor: EyesColor.brown
+});
 //# sourceMappingURL=index.js.map
