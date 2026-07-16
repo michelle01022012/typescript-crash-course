@@ -72,4 +72,10 @@ function displayStudent(student: Student): void {
     document.body.innerText = info
 }
 
+displayStudent({
+    name: "Jack",
+    age: 20,
+    eyeColor: EyesColor.brown
+})
+
 
