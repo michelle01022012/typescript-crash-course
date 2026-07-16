@@ -72,7 +72,7 @@ function displayStudent(student: Student): void {
 
 interface Student {
     name: string
-    age: number
+    age?: number
     eyeColor: EyesColor
 }
 
