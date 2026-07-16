@@ -7,7 +7,10 @@ declare let arr: any[];
 declare let numArr: number[][];
 declare let employee: [number, string];
 declare let employees: [number, string][];
-declare let car1: vst;
+declare let car1: {
+    brand: string;
+    year: number;
+};
 interface Car1 {
     brand: string;
     year: number;
@@ -19,9 +22,9 @@ declare let jackOccupation: occupation;
 declare let y: any;
 declare function add(x: number, y: number): number;
 declare function sayHi(): void;
-declare function copyArr(arr: any): any[];
-declare let numCopy: any[];
-declare let strCopy: any, Arr: any;
+declare function copyArr<T>(arr: T[]): T[];
+declare let numCopy: number[];
+declare let strCopy: string[];
 declare enum EyesColor {
     brown = "Common eye color",
     blue = "Rare eye color",

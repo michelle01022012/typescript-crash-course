@@ -40,8 +40,7 @@ function copyArr(arr) {
     return [...arr];
 }
 let numCopy = copyArr([1, 2, 3]);
-let strCopy = copy, Arr;
-(["1", "2", "3"]);
+let strCopy = copyArr(["1", "2", "3"]);
 //Enums
 var EyesColor;
 (function (EyesColor) {
