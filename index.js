@@ -38,9 +38,13 @@ function add(x, y) {
 function sayHi() {
     console.log("Hi");
 }
-function copyArr(arr) {
-    return [...arr];
+function copyArr<T>(arr: T[]): T[] {
+    return [...arr]
 }
+
+let numCopy = copyArr([1, 2, 3])
+let strCopy = copyArr<string>(["1", "2", "3"])
+
 let numCopy = copyArr([1, 2, 3]);
 let strCopy = copy, Arr;
 (["1", "2", "3"]);

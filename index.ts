@@ -68,8 +68,14 @@ enum EyesColor {
 }
 
 function displayStudent(student: Student): void {
-    const info: strinhg = student.name + "\n" + student.age + "\n" + student.eyeColor
+    const info: string = student.name + "\n" + student.age + "\n" + student.eyeColor
     document.body.innerText = info
+}
+
+interface Student {
+    name: string
+    age: number
+    eyeColor: EyesColor
 }
 
 displayStudent({
