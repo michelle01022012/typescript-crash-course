@@ -17,7 +17,7 @@ let employees: [number, string][] =[
 ]
 
  //Custom types
-let car1:vst ={
+let car1 = {
     brand: "Lexus",
     year: 2020,
 
@@ -52,13 +52,12 @@ function sayHi(): void {
     console.log("Hi")
 }
 
-function copyArr(arr){
+function copyArr<T>(arr: T[]): T[] {
     return [...arr]
 }
 
 let numCopy = copyArr([1, 2, 3])
-let strCopy = copy Arr<string>(["1", "2", "3"])
-
+let strCopy = copyArr<string>(["1", "2", "3"])
 //Enums
 enum EyesColor {
     brown = "Common eye color",

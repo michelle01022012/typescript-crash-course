@@ -7,9 +7,8 @@ let fruit = "apple";
 //Arrays
 let fruits = ["Apple", "Orange"];
 let arr = [22, "a", true];
-let numArr = [[1], [2]]
+let numArr = [[1], [2]];
 //Tuples
-[number, string];
 let employee = [1, "Jack"];
 let employees = [
     [2, "Sarah"],
